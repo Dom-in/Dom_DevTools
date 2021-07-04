@@ -1,4 +1,4 @@
-# [SOON] Dom_DevTools
+# Dom_DevTools
 
 FiveM devtools for EasyAdmin menu. Just upload it to you're plugins. All is just compressed 4 plugins in one.
 
