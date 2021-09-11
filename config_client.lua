@@ -2,7 +2,7 @@ DevConfig = {}
 DevConfig.XYZColors = "r"
 
 --Commands
-DevConfig.coords = false
-DevConfig.noclip = false
-DevConfig.vanish = false
-DevConfig.tpm = false
+DevConfig.coords = true
+DevConfig.noclip = true
+DevConfig.vanish = true
+DevConfig.tpm = true

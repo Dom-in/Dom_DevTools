@@ -25,7 +25,7 @@ Citizen.CreateThread(function()
 			local playerX, playerY, playerZ = table.unpack(GetEntityCoords(playerPed))
 			local playerH = GetEntityHeading(playerPed)
 
-			DrawGenericText(("~".DevConfig.XYZColors."~X~w~: %s ~".DevConfig.XYZColors."~Y~w~: %s ~".DevConfig.XYZColors."~Z~w~: %s ~r~H~w~: %s"):format(FormatCoord(playerX), FormatCoord(playerY), FormatCoord(playerZ), FormatCoord(playerH)))
+			DrawGenericText(("~r~X~w~: %s ~r~Y~w~: %s ~r~Z~w~: %s ~r~H~w~: %s"):format(FormatCoord(playerX), FormatCoord(playerY), FormatCoord(playerZ), FormatCoord(playerH)))
 		end
 
 		Citizen.Wait(sleepThread)
